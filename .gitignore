@@ -1,0 +1,25 @@
+# Ignore Rasa model files
+models/
+
+# Ignore logs
+logs/
+
+# Ignore virtual environment directory
+venv/
+rasa-env/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore sensitive files
+.env
+credentials.yml
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
