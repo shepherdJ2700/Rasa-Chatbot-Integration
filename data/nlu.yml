@@ -1,0 +1,48 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      
+  - intent: goodbye
+    examples: |
+      - bye
+      - see you
+      - goodbye
+
+  - intent: affirm
+    examples: |
+      - yes
+      - indeed
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - never
+      - not really
+
+  - intent: check_compatibility_single
+    examples: |
+      - Is [GPU 1](hardware) compatible?
+      - Can you check compatibility for [CPU 3](hardware)?
+      - Tell me about [RAM 4](hardware).
+      - [SSD 2](hardware)
+      - [Motherboard 5](hardware)
+
+
+  - intent: check_compatability_of_2_parts
+    examples: |
+      - Gpu 1 and Cpu 1
+
+  - intent: bot_challenge
+    examples: |
+      - Are you a bot?
+      - Is this bot real?
+      - Are you automated?
+      - Can you prove you’re not a bot?
+      - Prove you're human

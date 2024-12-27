@@ -1,0 +1,25 @@
+rules:
+  - rule: Ask for parts compatibility
+    steps:
+      - intent: check_compatability_of_1_part
+      - action: utter_ask_for_part
+
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - rule: Respond affirmatively to part compatibility
+    steps:
+      - intent: affirm
+      - action: utter_confirm_compatibility
+
+  - rule: Respond negatively to part compatibility
+    steps:
+      - intent: deny
+      - action: utter_deny_compatibility

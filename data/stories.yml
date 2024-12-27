@@ -1,0 +1,28 @@
+stories:
+  - story: greet and ask for compatibility
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: check_compatability_of_1_part
+      - action: utter_ask_for_part
+      - intent: check_compatability_of_2_parts
+      - action: utter_ask_for_part
+
+  - story: goodbye path
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: affirm response
+    steps:
+      - intent: check_compatability_of_1_part
+      - action: utter_ask_for_part
+      - intent: affirm
+      - action: utter_confirm_compatibility
+
+  - story: deny response
+    steps:
+      - intent: check_compatability_of_1_part
+      - action: utter_ask_for_part
+      - intent: deny
+      - action: utter_deny_compatibility

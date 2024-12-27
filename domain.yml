@@ -1,0 +1,38 @@
+version: "3.1"
+
+entities:
+  - hardware
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - check_compatability_of_1_part
+  - check_compatability_of_2_parts
+  - bot_challenge
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_ask_for_part:
+    - text: "Which part would you like to check for compatibility?"
+  utter_iamabot:
+    - text: "I am a bot. How can I assist you?"
+  utter_bot_challenge:
+    - text: "Yes, I am a bot, here to help you!"
+  utter_confirm_compatibility:
+    - text: "The parts are compatible."
+  utter_deny_compatibility:
+    - text: "The parts are not compatible."
+
+actions:
+  - action_ask_for_part
+  - action_check_compatibility
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

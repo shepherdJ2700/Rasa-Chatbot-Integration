@@ -1,0 +1,31 @@
+Product_Type,Product_Name,Features,Compatible_With
+GPU,GPU 1,Low power,GPU 1; GPU 2; Motherboard 1; Motherboard 2; CPU 1; CPU 2; RAM 1; RAM 2; SSD 1; SSD 2; HDD 1; HDD 2
+GPU,GPU 2,Medium power,GPU 1; GPU 2; GPU 3; Motherboard 1; Motherboard 2; Motherboard 3; CPU 1; CPU 2; CPU 3; RAM 1; RAM 2; RAM 3; SSD 1; SSD 2; SSD 3; HDD 1; HDD 2; HDD 3
+GPU,GPU 3,High power,GPU 2; GPU 3; GPU 4; Motherboard 2; Motherboard 3; Motherboard 4; CPU 2; CPU 3; CPU 4; RAM 2; RAM 3; RAM 4; SSD 2; SSD 3; SSD 4; HDD 2; HDD 3; HDD 4
+GPU,GPU 4,Very high power,GPU 3; GPU 4; GPU 5; Motherboard 3; Motherboard 4; Motherboard 5; CPU 3; CPU 4; CPU 5; RAM 3; RAM 4; RAM 5; SSD 3; SSD 4; SSD 5; HDD 3; HDD 4; HDD 5
+GPU,GPU 5,Extreme power,GPU 4; GPU 5; Motherboard 4; Motherboard 5; CPU 4; CPU 5; RAM 4; RAM 5; SSD 4; SSD 5; HDD 4; HDD 5
+CPU,CPU 1,Low power,Motherboard 1; Motherboard 2; GPU 1; GPU 2; RAM 1; RAM 2; SSD 1; SSD 2; HDD 1; HDD 2
+CPU,CPU 2,Medium power,Motherboard 1; Motherboard 2; Motherboard 3; GPU 1; GPU 2; GPU 3; RAM 1; RAM 2; RAM 3; SSD 1; SSD 2; SSD 3; HDD 1; HDD 2; HDD 3
+CPU,CPU 3,High power,Motherboard 2; Motherboard 3; Motherboard 4; GPU 2; GPU 3; GPU 4; RAM 2; RAM 3; RAM 4; SSD 2; SSD 3; SSD 4; HDD 2; HDD 3; HDD 4
+CPU,CPU 4,Very high power,Motherboard 3; Motherboard 4; Motherboard 5; GPU 3; GPU 4; GPU 5; RAM 3; RAM 4; RAM 5; SSD 3; SSD 4; SSD 5; HDD 3; HDD 4; HDD 5
+CPU,CPU 5,Extreme power,Motherboard 4; Motherboard 5; GPU 4; GPU 5; RAM 4; RAM 5; SSD 4; SSD 5; HDD 4; HDD 5
+RAM,RAM 1,Low capacity,Motherboard 1; Motherboard 2; GPU 1; GPU 2; CPU 1; CPU 2; SSD 1; SSD 2; HDD 1; HDD 2
+RAM,RAM 2,Medium capacity,Motherboard 1; Motherboard 2; Motherboard 3; GPU 1; GPU 2; GPU 3; CPU 1; CPU 2; CPU 3; SSD 1; SSD 2; SSD 3; HDD 1; HDD 2; HDD 3
+RAM,RAM 3,High capacity,Motherboard 2; Motherboard 3; Motherboard 4; GPU 2; GPU 3; GPU 4; CPU 2; CPU 3; CPU 4; SSD 2; SSD 3; SSD 4; HDD 2; HDD 3; HDD 4
+RAM,RAM 4,Very high capacity,Motherboard 3; Motherboard 4; Motherboard 5; GPU 3; GPU 4; GPU 5; CPU 3; CPU 4; CPU 5; SSD 3; SSD 4; SSD 5; HDD 3; HDD 4; HDD 5
+RAM,RAM 5,Extreme capacity,Motherboard 4; Motherboard 5; GPU 4; GPU 5; CPU 4; CPU 5; SSD 4; SSD 5; HDD 4; HDD 5
+SSD,SSD 1,Low storage,Motherboard 1; Motherboard 2; GPU 1; GPU 2; CPU 1; CPU 2; RAM 1; RAM 2; HDD 1; HDD 2
+SSD,SSD 2,Medium storage,Motherboard 1; Motherboard 2; Motherboard 3; GPU 1; GPU 2; GPU 3; CPU 1; CPU 2; CPU 3; RAM 1; RAM 2; RAM 3; HDD 1; HDD 2; HDD 2
+SSD,SSD 3,High storage,Motherboard 2; Motherboard 3; Motherboard 4; GPU 2; GPU 3; GPU 4; CPU 2; CPU 3; CPU 4; RAM 2; RAM 3; RAM 4; HDD 2; HDD 3; HDD 4
+SSD,SSD 4,Very high storage,Motherboard 3; Motherboard 4; Motherboard 5; GPU 3; GPU 4; GPU 5; CPU 3; CPU 4; CPU 5; RAM 3; RAM 4; RAM 5; HDD 3; HDD 4; HDD 5
+SSD,SSD 5,Extreme storage,Motherboard 4; Motherboard 5; GPU 4; GPU 5; CPU 4; CPU 5; RAM 4; RAM 5; HDD 4; HDD 5
+HDD,HDD 1,Low speed,Motherboard 1; Motherboard 2; GPU 1; GPU 2; CPU 1; CPU 2; RAM 1; RAM 2; SSD 1; SSD 2; HDD 1; HDD 2
+HDD,HDD 2,Medium speed,Motherboard 1; Motherboard 2; Motherboard 3; GPU 1; GPU 2; GPU 3; CPU 1; CPU 2; CPU 3; RAM 1; RAM 2; RAM 3; SSD 1; SSD 2; SSD 3; HDD 1; HDD 2; HDD 2
+HDD,HDD 3,High speed,Motherboard 2; Motherboard 3; Motherboard 4; GPU 2; GPU 3; GPU 4; CPU 2; CPU 3; CPU 4; RAM 2; RAM 3; RAM 4; SSD 2; SSD 3; SSD 4; HDD 2; HDD 3; HDD 4
+HDD,HDD 4,Very high speed,Motherboard 3; Motherboard 4; Motherboard 5; GPU 3; GPU 4; GPU 5; CPU 3; CPU 4; CPU 5; RAM 3; RAM 4; RAM 5; SSD 3; SSD 4; SSD 5; HDD 3; HDD 4; HDD 5
+HDD,HDD 5,Extreme speed,Motherboard 4; Motherboard 5; GPU 4; GPU 5; CPU 4; CPU 5; RAM 4; RAM 5; SSD 4; SSD 5; HDD 4; HDD 5
+Motherboard,Motherboard 1,Low compatibility,GPU 1; GPU 2; CPU 1; CPU 2; RAM 1; RAM 2; SSD 1; SSD 2; HDD 1; HDD 2
+Motherboard,Motherboard 2,Medium compatibility,GPU 1; GPU 2; GPU 3; CPU 1; CPU 2; CPU 3; RAM 1; RAM 2; RAM 3; SSD 1; SSD 2; SSD 3; HDD 1; HDD 2; HDD 3
+Motherboard,Motherboard 3,High compatibility,GPU 2; GPU 3; GPU 4; CPU 2; CPU 3; CPU 4; RAM 2; RAM 3; RAM 4; SSD 2; SSD 3; SSD 4; HDD 2; HDD 3; HDD 4
+Motherboard,Motherboard 4,Very high compatibility,GPU 3; GPU 4; GPU 5; CPU 3; CPU 4; CPU 5; RAM 3; RAM 4; RAM 5; SSD 3; SSD 4; SSD 5; HDD 3; HDD 4; HDD 5
+Motherboard,Motherboard 5,Extreme compatibility,GPU 4; GPU 5; CPU 4; CPU 5; RAM 4; RAM 5; SSD 4; SSD 5; HDD 4; HDD 5
